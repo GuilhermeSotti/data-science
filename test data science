@@ -1,0 +1,42 @@
+import pandas as pd
+import re
+import collections
+
+def test():
+
+################## VALUE() ######################
+
+  # sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+  # print(sales.values())
+
+################# TOLIST() ######################
+
+  # data = pd.read_csv("https://www.geeksforgeeks.org/python-pandas-series-tolist/") ##EXE
+  # data_before = type(data["Salary"])
+  # data_salary = data["Salary"].tolist()
+  # data_after = type(data_salary)
+  # print(data_before, data_after, data_salary)
+
+################# LEN()  #######################
+
+  # mylist = ["apple", "orange", "cherry"]
+  # x = len(mylist)
+  # print(x)
+
+################ RANGE() #######################
+
+  # x = range(3, 20, 6)
+  # for n in x: 
+  #   print(n)
+
+################ COUNTER() ######################
+
+  # print(collections.Counter(['a', 'b', 'c', 'a', 'b', 'b']))
+  # print(collections.Counter({'a':2, 'b':3, 'c':1}))
+  # print(collections.Counter(a=2, b=3, c=1))
+
+################ OBSERVAÇÕES ####################
+  
+  # print(15 * '__')
+  
+test()
